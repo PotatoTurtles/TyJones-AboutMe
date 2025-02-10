@@ -6,7 +6,6 @@ body{
 .content{
     display: flex;
     flex-direction: column;
-    gap: 1em;
 }
 
 .header{
@@ -181,4 +180,5 @@ li{
     align-items: center;
     padding: 16px 64px;
     justify-content: space-between;
+    margin-top: 1em;
 }
