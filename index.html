@@ -5,13 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ty Jones - About Me</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="content">
             <div class="header">
                 <!-- Logo/Website name on left with links on the right, row flexbox -->
                  <div style="padding: 0px;" class="title">
-                    <h2 style="color: aliceblue; font-size: 100px; margin: 0px; padding: 30px 200px; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 1800;" >&ltAbout Me></h2>
+                    <h2 style="color: aliceblue; font-size: 10vw; margin: 0px; font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: 500;" >About Me</h2>
                     <!-- <a style="color: aliceblue;" href="/">Other Projects</a>
                     <a style="color: aliceblue;" href="/">Learn2Code</a> -->
                  </div>
@@ -21,10 +25,12 @@
                 <!-- image on left with subtitle and a description on the right, row flexbox -->
                 <div class="weldimg">
                     <!-- Image on top of descriptiong, flexbox column -->
-                    <img class="wimg" src="img/IMG_6236.jpg" alt="A picture of Ty Jones Soldering">
-                    <h6>
-                        Photo Taken by Jiawei Zou
-                    </h6>
+                    <div class="slide">
+                        <img class="wimg" src="img/IMG_6236.jpg" alt="A picture of Ty Jones Soldering">
+                        <h6>
+                            Photo Taken by Jiawei Zou
+                        </h6>
+                    </div>
                 </div>
                 <div class="parg">
                     <h3>How I learned to Weld & Solder</h3>
@@ -72,20 +78,24 @@
                 </div>
                  <div class="printimg">
                     <!-- Image on top of descriptiong, flexbox column -->
-                    <img class="biggerimg" src="img/Better3dprints.png" alt="A picture of Ty Jones' 3D Print progressions.">
-                    <h6>
-                        (Several additions of a kicker which used gears to transfer force from a servo to the arms.)
-                    </h6>
+                    <div class="slide">
+                        <img class="biggerimg" src="img/Better3dprints.png" alt="A picture of Ty Jones' 3D Print progressions.">
+                        <h6>
+                            (Several additions of a kicker which used gears to transfer force from a servo to the arms.)
+                        </h6>
+                    </div>
                  </div>
             </div>
             <div class="code">
                 <!-- image on left with subtitle and a description on the right, row flexbox -->
                 <div class="codeimg">
                     <!-- Image on top of descriptiong, flexbox column -->
-                    <img class="cimg" src="img/codedScrnShot.png" alt="A picture of Ty Jones' past coding project ">
-                    <h6>
-                        (The code above was part of a soccer playing code which utilized the 3d prints displayed previously.)
-                    </h6>
+                    <div class="slide">
+                        <img class="cimg" src="img/codedScrnShot.png" alt="A picture of Ty Jones' past coding project ">
+                        <h6>
+                            (The code above was part of a soccer playing code which utilized the 3d prints displayed previously.)
+                        </h6>
+                    </div>
                 </div>
                 <div class="parg">
                     <h3>My Coding Journey</h3>
@@ -99,7 +109,6 @@
                     </p>
                 </div>
             </div>
-            <div class="spacer"></div>
             <div class="edu">
                 <!-- current enrollment & graduating year + career aspirations/goals -->
                 <div class="cent">
@@ -117,7 +126,7 @@
                         <li><strong>Honors</strong>: National Honor Society, Three Time Consecutive Navigator Award Recipient.</li>
                     </ul>
                 </div>
-                <div class="sidelong">
+                <!-- <div class="sidelong">
                     <div class="edhead">
                         <p>? University, <em>Washington, DC</em></p>
                         <p>Expected Graduation: May, 2029</p>
@@ -125,11 +134,10 @@
                     <ul>
                         <li>Incoming Freshman</li>
                     </ul>
-                </div>
+                </div> -->
                     
                 
             </div>
-            <div class="spacer"></div>
             <div class="currentproj">
                 <div class="cent">
                     <h2>Current Projects</h2>
@@ -137,7 +145,7 @@
                 <div class="projobj">
                     <div class="vertimg">
                         <img class="corner" src="img/RoboticsMechanicalArm.png" alt="Autonomous arm deisgn.">
-                        <p>Designing an autonomous block sorter power by an Arduino Uno.</p>
+                        <p>Designing a 3d printed autonomous robotic arm power by an Arduino Uno.</p>
                     </div>
                     <div class="vertimg">
                         <img class="corner" src="img/ROVFrame.png" alt="Remotely Operated Vehicle frame design.">
@@ -145,7 +153,7 @@
                     </div>
                     <div class="vertimg">
                         <img class="corner" src="img/PalmLiterary.png" alt=" Palm tree growing out of a hand logo.">
-                        <p>Launching a literary magazine dedicated to climate change .</p>
+                        <p>Launching a literary magazine dedicated to climate change.</p>
                     </div>
                     <div class="vertimg">
                         <img class="corner" src="img/TheOdinProject.png" alt="The oding project screenshot.">
@@ -157,7 +165,7 @@
             <div class="footer">
                 <!-- Give links to my linkedin, email, and resume -->
                  <a href="https://www.linkedin.com/in/thomas-j-2143782b6/" target="_blank">My LinkedIn</a>
-                 <a href="mailto:ty.jones.0820@gmail.com" target="_blank">My Email</a>
+                 <a href="mailto:ty.jones.0820@gmail.com?subject=Hello%20Ty&body=Just%20wanted%20to%20say%20hi!">Email Me</a>
                  <a href="https://docs.google.com/document/d/1RpC-CoXA51XdmVrHlT3DuxlfQMn4qVBhDqgbY0S13w8/edit?usp=sharing" target="_blank">My Resume</a>
             </div>
         </div>
